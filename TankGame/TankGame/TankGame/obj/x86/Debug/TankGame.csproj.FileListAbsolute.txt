@@ -1,0 +1,6 @@
+C:\Users\francis\Top-Down-Tank-Game\TankGame\TankGame\TankGame\bin\x86\Debug\TankGame.exe
+C:\Users\francis\Top-Down-Tank-Game\TankGame\TankGame\TankGame\bin\x86\Debug\TankGame.pdb
+C:\Users\francis\Top-Down-Tank-Game\TankGame\TankGame\TankGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\francis\Top-Down-Tank-Game\TankGame\TankGame\TankGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\francis\Top-Down-Tank-Game\TankGame\TankGame\TankGame\obj\x86\Debug\TankGame.exe
+C:\Users\francis\Top-Down-Tank-Game\TankGame\TankGame\TankGame\obj\x86\Debug\TankGame.pdb
