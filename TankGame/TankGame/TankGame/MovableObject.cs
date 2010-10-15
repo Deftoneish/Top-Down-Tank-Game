@@ -80,15 +80,14 @@ namespace TankGame
         private void move(Vector3 amount)
         {
 
-            int maxX = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
-            int maxY = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+            int maxX = graphics.PreferredBackBufferWidth;
+            int maxY = graphics.PreferredBackBufferHeight;
             int maxZ = 0;
             if (amount.X > 0)
             {
      
-                if ((highestX + amount.X) > maxX)
+                if (maxX > 0 && (highestX + amount.X) > maxX)
                 {
-                    verticies[1].Color = Color.Brown;
                     amount.X = (maxX-highestX);
                 }
             }
@@ -103,7 +102,7 @@ namespace TankGame
             {
                 if (maxY > 0 && highestY + amount.Y > maxY)
                 {
-                    amount.Y = 0;
+                    amount.Y = maxY - highestY;
                 }
             }
             else if (amount.Y < 0)

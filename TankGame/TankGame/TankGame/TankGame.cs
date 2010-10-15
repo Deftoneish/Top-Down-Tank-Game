@@ -29,7 +29,8 @@ namespace TankGame
             
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = ("Content");
-            InitGraphicsMode(1280, 720, false);
+            InitGraphicsMode(GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width, 
+                GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height, true);
           
             
         }
