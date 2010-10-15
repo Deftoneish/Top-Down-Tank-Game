@@ -10,7 +10,7 @@ namespace TankGame
         /// </summary>
         static void Main(string[] args)
         {
-            using (Game1 game = new Game1())
+            using (TankGame game = new TankGame())
             {
                 game.Run();
             }
